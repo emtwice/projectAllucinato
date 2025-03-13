@@ -19,6 +19,18 @@
 # Fortran module files
 *.mod
 
+# Fmod Project
+FMOD/.user/
+FMOD/.unsaved/
+FMOD/.cache/
+FMOD/.restore/
+FMOD/user/
+FMOD/unsaved/
+FMOD/restore/
+FMOD/fmod.log
+FMOD/fmod_editor.log
+
+
 # Compiled Static libraries
 *.lai
 *.la
