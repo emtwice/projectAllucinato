@@ -145,3 +145,6 @@ Plugins/FMODStudio/Docs/welcome-whats-new-201.html
 Plugins/FMODStudio/Docs/welcome-whats-new-202.html
 Plugins/FMODStudio/Docs/welcome-whats-new-203.html
 Plugins/FMODStudio/Docs/welcome.html
+
+# force push changes
+!Config/Default*.ini
