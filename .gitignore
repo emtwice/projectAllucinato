@@ -1,3 +1,67 @@
+# Ignore user-specific files and local settings
+*.suo
+*.user
+*.userossc
+*.users
+*.swp
+*.sdf
+*.VC.db
+
+# Ignore all build and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore project-specific cache files
+*.log
+*.tlog
+*.pdb
+*.obj
+*.ini
+*.iobj
+*.ipdb
+
+# Ignore compiled plugins and intermediate data
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Fmod Project
+FMOD/.user/
+FMOD/.unsaved/
+FMOD/.cache/
+FMOD/.restore/
+FMOD/user/
+FMOD/unsaved/
+FMOD/restore/
+FMOD/fmod.log
+FMOD/fmod_editor.log
+
+# Ignore any auto-generated files for C++ projects
+*.VC.db
+.vscode/
+.idea/
+.vs/
+
+# Ignore Unreal Engine config files that are user-specific
+Saved/Config/WindowsEditor/
+
+# Ignore backups
+Backup/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files for builds
+Build/Windows/*.target
+Build/Windows/*.response
+
+# Ignore optional directories
+__MACOSX/
+.node_modules/
+.env
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -18,18 +82,6 @@
 
 # Fortran module files
 *.mod
-
-# Fmod Project
-FMOD/.user/
-FMOD/.unsaved/
-FMOD/.cache/
-FMOD/.restore/
-FMOD/user/
-FMOD/unsaved/
-FMOD/restore/
-FMOD/fmod.log
-FMOD/fmod_editor.log
-
 
 # Compiled Static libraries
 *.lai
@@ -59,7 +111,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -80,71 +132,14 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-Content/InBuild/Player/BP_FirstPersonCharacter.uasset
-Content/InBuild/Player/BP_FirstPersonCharacter.uasset
-Content/InBuild/Player/BP_FirstPersonCharacter.uasset
-Content/Jesus/BP_RoomTest.uasset
-Content/Jesus/ProceduralTest.umap
-Content/Luca/Assets/Materials/MI_AlienStation.uasset
-Content/Luca/Assets/Materials/MI_Dungeon.uasset
-Content/Luca/Assets/Materials/MI_Hospital.uasset
-Content/Luca/Assets/Materials/MM_Stage.uasset
-Content/Luca/Assets/Meshes/bisturi.uasset
-Content/Luca/Assets/Meshes/tavolo.uasset
-Content/Luca/BP_Generator.uasset
-Content/Luca/BP_ProtoGenerator.uasset
-Content/Luca/BP_ProtoParentLevel.uasset
-Content/Luca/BP_ProtoRoom.uasset
-Content/Luca/LevelDesignTest.umap
-Content/Luca/Rooms/BP_EmptyRoom.uasset
-Content/Luca/Rooms/BP_Laser.uasset
-Content/Luca/Rooms/BP_MedievalScalpel.uasset
-Content/Luca/Rooms/BP_ScalpelRoom.uasset
-Content/LV_Prototype.umap
-Content/Matteo/BP_Gameplay_GameMode.uasset
-Plugins/FMODStudio/Docs/api-reference-afmodambientsound.html
-Plugins/FMODStudio/Docs/api-reference-common.html
-Plugins/FMODStudio/Docs/api-reference-ifmodstudiomodule.html
-Plugins/FMODStudio/Docs/api-reference-ufmodanimnotifyplay.html
-Plugins/FMODStudio/Docs/api-reference-ufmodasset.html
-Plugins/FMODStudio/Docs/api-reference-ufmodaudiocomponent.html
-Plugins/FMODStudio/Docs/api-reference-ufmodbank.html
-Plugins/FMODStudio/Docs/api-reference-ufmodblueprintstatics.html
-Plugins/FMODStudio/Docs/api-reference-ufmodbus.html
-Plugins/FMODStudio/Docs/api-reference-ufmodevent.html
-Plugins/FMODStudio/Docs/api-reference-ufmodport.html
-Plugins/FMODStudio/Docs/api-reference-ufmodsettings.html
-Plugins/FMODStudio/Docs/api-reference-ufmodsnapshot.html
-Plugins/FMODStudio/Docs/api-reference-ufmodsnapshotreverb.html
-Plugins/FMODStudio/Docs/api-reference-ufmodvca.html
-Plugins/FMODStudio/Docs/api-reference.html
-Plugins/FMODStudio/Docs/audiolink.html
-Plugins/FMODStudio/Docs/blueprint-reference-asynchronous-loading.html
-Plugins/FMODStudio/Docs/blueprint-reference-bus.html
-Plugins/FMODStudio/Docs/blueprint-reference-common.html
-Plugins/FMODStudio/Docs/blueprint-reference-component.html
-Plugins/FMODStudio/Docs/blueprint-reference-enums.html
-Plugins/FMODStudio/Docs/blueprint-reference-eventinstance.html
-Plugins/FMODStudio/Docs/blueprint-reference-structs.html
-Plugins/FMODStudio/Docs/blueprint-reference-utilities.html
-Plugins/FMODStudio/Docs/blueprint-reference.html
-Plugins/FMODStudio/Docs/glossary.html
-Plugins/FMODStudio/Docs/niagara.html
-Plugins/FMODStudio/Docs/platform-specifics.html
-Plugins/FMODStudio/Docs/plugins.html
-Plugins/FMODStudio/Docs/settings.html
-Plugins/FMODStudio/Docs/style/code_highlight.css
-Plugins/FMODStudio/Docs/troubleshooting.html
-Plugins/FMODStudio/Docs/user-guide.html
-Plugins/FMODStudio/Docs/welcome-whats-new-200.html
-Plugins/FMODStudio/Docs/welcome-whats-new-201.html
-Plugins/FMODStudio/Docs/welcome-whats-new-202.html
-Plugins/FMODStudio/Docs/welcome-whats-new-203.html
-Plugins/FMODStudio/Docs/welcome.html
 
-# force push changes
+# Optional: Include some files you might want to keep
 !Config/Default*.ini
+!Source/**
+!Config/**
+!Content/**
+!*.uproject
