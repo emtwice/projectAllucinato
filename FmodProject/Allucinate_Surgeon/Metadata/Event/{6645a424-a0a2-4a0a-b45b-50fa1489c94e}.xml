@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6645a424-a0a2-4a0a-b45b-50fa1489c94e}">
 		<property name="name">
-			<value>MusicNormal</value>
+			<value>MusicNormalRadio</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c4a41d69-f833-4e35-8596-fe316fd9ffc3}</destination>
@@ -53,7 +53,7 @@
 			<destination>{95a4ede7-fa24-4c16-ae3c-3c72c5016ef3}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e75d1953-9651-406d-b3a7-67c91f365538}</destination>
+			<destination>{ebd80a48-5608-478b-bc7c-6b1887cf36fc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e9c68119-dd31-4c18-b992-dd1804adba6d}" />
@@ -100,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b5895b17-24ad-47fc-b17d-92b168977005}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -136,10 +139,19 @@
 	<object class="MixerBusFader" id="{9a038c66-127f-47ad-9d42-6ec89e9cff00}" />
 	<object class="MixerBusEffectChain" id="{42351a4d-f9ba-4276-af7d-a830d4896bdf}">
 		<relationship name="effects">
+			<destination>{28df23a3-a252-4c8a-ad0d-06782a634b4c}</destination>
 			<destination>{21173d2d-ce41-43cb-8bfc-5784af9d145c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{19a7c65b-92c9-4845-b094-7cf9ae8a6ce9}" />
 	<object class="MixerBusFader" id="{60a0a192-d197-499f-98fd-2825a5b09c34}" />
+	<object class="SpatialiserEffect" id="{28df23a3-a252-4c8a-ad0d-06782a634b4c}">
+		<property name="panBlend">
+			<value>0</value>
+		</property>
+		<property name="userStereoSeparation">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{21173d2d-ce41-43cb-8bfc-5784af9d145c}" />
 </objects>
