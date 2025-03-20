@@ -5,7 +5,7 @@
 			<value>Ambience_Medieval</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c4a41d69-f833-4e35-8596-fe316fd9ffc3}</destination>
@@ -130,6 +130,7 @@
 	<object class="MixerBusEffectChain" id="{6cad418e-a06b-437c-951d-053fdd41eb61}">
 		<relationship name="effects">
 			<destination>{8120b430-ad04-41f8-8986-7124855e8611}</destination>
+			<destination>{93eab2c5-b603-42d5-a2ba-71b49a85298f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{27bb117c-50e5-4ad1-9bdc-b45fe724771e}" />
@@ -141,5 +142,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ca73cdc4-7b6a-4806-a9bd-6dff50c4a4b0}" />
 	<object class="MixerBusFader" id="{8120b430-ad04-41f8-8986-7124855e8611}" />
+	<object class="SpatialiserEffect" id="{93eab2c5-b603-42d5-a2ba-71b49a85298f}" />
 	<object class="MixerBusFader" id="{c2f5379c-bc76-4fc1-8943-3405b62a783c}" />
 </objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c2332f9c-e728-47c9-83f3-6ecd060a9470}">
+		<property name="assetPath">
+			<value>Props/Grab_metal_tools.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.37498866213151927</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3812fd66-9c74-4a0a-95ac-c5704cd68280}</destination>
+		</relationship>
+	</object>
+</objects>

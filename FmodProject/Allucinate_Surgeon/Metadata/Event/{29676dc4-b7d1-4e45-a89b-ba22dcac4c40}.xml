@@ -5,7 +5,7 @@
 			<value>Ambience_SciFi</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c4a41d69-f833-4e35-8596-fe316fd9ffc3}</destination>
@@ -133,6 +133,7 @@
 	<object class="MixerBusEffectChain" id="{04eb7c74-38ca-44c7-8d34-e5cbb7ded8c8}">
 		<relationship name="effects">
 			<destination>{35bb9ef6-d66e-41f4-999b-0e21bc73c1de}</destination>
+			<destination>{308ebd90-6af4-461f-8a6e-3e7273c6b134}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6aeab861-dc5a-466e-bc91-23398ba3c7a6}" />
@@ -144,5 +145,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ae5b5c48-1a3a-4394-9573-3ee0cdd60c21}" />
 	<object class="MixerBusFader" id="{35bb9ef6-d66e-41f4-999b-0e21bc73c1de}" />
+	<object class="SpatialiserEffect" id="{308ebd90-6af4-461f-8a6e-3e7273c6b134}" />
 	<object class="MixerBusFader" id="{2c33cfad-5fd9-4c92-8784-2ebd47e508fa}" />
 </objects>

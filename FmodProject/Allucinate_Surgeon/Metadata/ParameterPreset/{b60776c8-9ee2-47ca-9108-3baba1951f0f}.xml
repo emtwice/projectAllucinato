@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b60776c8-9ee2-47ca-9108-3baba1951f0f}">
+		<property name="name">
+			<value>GrabBlood</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{33994604-f444-441c-97ad-40d7dbb28aec}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{33994604-f444-441c-97ad-40d7dbb28aec}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BloodBag</value>
+			<value>Bucket</value>
+			<value>Vial</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
