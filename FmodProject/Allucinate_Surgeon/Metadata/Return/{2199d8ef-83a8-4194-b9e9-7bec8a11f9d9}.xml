@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerReturn" id="{2199d8ef-83a8-4194-b9e9-7bec8a11f9d9}">
 		<property name="name">
-			<value>Reverb CloseTools</value>
+			<value>ReverbTools</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7ce8c717-b680-4ad8-b3f7-8e83d353a385}</destination>

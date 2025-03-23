@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b1b41c24-c012-4f73-9437-852934c7cf9b}">
-		<property name="note" />
 		<property name="name">
-			<value>GrabBagBucketVial</value>
+			<value>BloodBag</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
