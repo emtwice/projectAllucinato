@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{4c1197cf-e5ff-4131-a98c-372cebae8036}">
+		<property name="name">
+			<value>AllucinationSFX</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{23628695-543f-4f3e-90d3-47efaa008d08}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{23628695-543f-4f3e-90d3-47efaa008d08}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
