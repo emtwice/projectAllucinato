@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cbd49abd-cb5f-4e3e-b232-04a4a831257d}">
+		<property name="assetPath">
+			<value>Props/Throw_Vial-002.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.57545833333333329</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3812fd66-9c74-4a0a-95ac-c5704cd68280}</destination>
+		</relationship>
+	</object>
+</objects>

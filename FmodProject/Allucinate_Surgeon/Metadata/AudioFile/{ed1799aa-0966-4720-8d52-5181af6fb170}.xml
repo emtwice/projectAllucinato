@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ed1799aa-0966-4720-8d52-5181af6fb170}">
+		<property name="assetPath">
+			<value>Props/Coin_impact-002.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.37654166666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3812fd66-9c74-4a0a-95ac-c5704cd68280}</destination>
+		</relationship>
+	</object>
+</objects>
