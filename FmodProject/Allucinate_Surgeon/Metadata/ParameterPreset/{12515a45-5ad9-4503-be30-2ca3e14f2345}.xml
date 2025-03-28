@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{12515a45-5ad9-4503-be30-2ca3e14f2345}">
+		<property name="name">
+			<value>putOrgan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{81fc634e-5049-41cf-b160-f3ed58aaede6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{81fc634e-5049-41cf-b160-f3ed58aaede6}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

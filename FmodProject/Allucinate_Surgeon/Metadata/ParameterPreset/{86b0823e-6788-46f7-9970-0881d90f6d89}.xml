@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{86b0823e-6788-46f7-9970-0881d90f6d89}">
+		<property name="name">
+			<value>ReverbBlending</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b29174ec-c236-4167-aac5-7cea0045c32c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b29174ec-c236-4167-aac5-7cea0045c32c}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
