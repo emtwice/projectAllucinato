@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{b60776c8-9ee2-47ca-9108-3baba1951f0f}">
+	<object class="ParameterPreset" id="{017cd7f0-6e3c-4fba-90a1-62d46a8ad762}">
 		<property name="name">
-			<value>GrabBlood</value>
+			<value>GrabVial</value>
 		</property>
 		<relationship name="folder">
 			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{33994604-f444-441c-97ad-40d7dbb28aec}</destination>
+			<destination>{da5bf217-d65d-44cd-9fe4-97632c8c22b4}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{33994604-f444-441c-97ad-40d7dbb28aec}">
+	<object class="GameParameter" id="{da5bf217-d65d-44cd-9fe4-97632c8c22b4}">
 		<property name="parameterType">
 			<value>1</value>
 		</property>
