@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{28a2ee59-f7b0-41f6-b6e0-0db62f155de7}">
+		<property name="name">
+			<value>CardioSwitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8b49ed63-5900-4c77-b1d4-3ededd02bd82}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8b49ed63-5900-4c77-b1d4-3ededd02bd82}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
