@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e8458131-e704-4965-9227-11e5e383db68}">
+		<property name="name">
+			<value>GrabAlien</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d1f51b60-5a8a-4ad0-a3f8-cd7540cad66a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d1f51b60-5a8a-4ad0-a3f8-cd7540cad66a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

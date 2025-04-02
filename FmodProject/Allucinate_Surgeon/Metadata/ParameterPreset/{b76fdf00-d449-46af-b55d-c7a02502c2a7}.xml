@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b76fdf00-d449-46af-b55d-c7a02502c2a7}">
+		<property name="name">
+			<value>GrabWood</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80dd501f-2fd8-48cb-a9fe-04a41300ace6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ff835dd0-10d1-4866-a37c-e3f43f3f512d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ff835dd0-10d1-4866-a37c-e3f43f3f512d}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
