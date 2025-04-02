@@ -168,6 +168,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>7</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{47316ae8-b4c3-4e88-80ba-252cd8cf1873}</destination>
 		</relationship>

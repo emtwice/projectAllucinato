@@ -488,7 +488,7 @@ ReverbBlending = 0  normal 1 medieval 2 alien</value>
 	<object class="MixerBusFader" id="{0379618c-966f-45e5-afef-3f68b5d6eb3d}" />
 	<object class="MixerSend" id="{c3360a63-18bd-423e-bc6e-0225295438d2}">
 		<property name="level">
-			<value>-21.5</value>
+			<value>-15</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>
