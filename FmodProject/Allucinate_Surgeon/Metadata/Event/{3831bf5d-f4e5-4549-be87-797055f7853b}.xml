@@ -58,7 +58,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{c9cdf2a9-3cc1-4a7f-b2f8-e3bbc70d3b09}">
 		<property name="minimumDistance">
-			<value>0.5</value>
+			<value>0.400000006</value>
 		</property>
 		<property name="maximumDistance">
 			<value>7</value>
@@ -190,7 +190,7 @@
 	<object class="MixerBusFader" id="{8120b430-ad04-41f8-8986-7124855e8611}" />
 	<object class="SpatialiserEffect" id="{93eab2c5-b603-42d5-a2ba-71b49a85298f}">
 		<property name="panBlend">
-			<value>0</value>
+			<value>0.174999997</value>
 		</property>
 		<property name="userStereoSeparation">
 			<value>-165.246292</value>
