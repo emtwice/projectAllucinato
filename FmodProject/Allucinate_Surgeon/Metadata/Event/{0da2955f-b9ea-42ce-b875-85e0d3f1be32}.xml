@@ -161,9 +161,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{cf0edf33-c52b-4f26-ac2a-ff12ec6cf00c}">
 		<relationship name="effects">
-			<destination>{7e9e440a-f698-4c38-b5bb-2de4da6673b9}</destination>
 			<destination>{57d92b1b-2884-4bab-a6f9-ec36afa35393}</destination>
 			<destination>{b83c8fa5-feab-4334-ac14-ea29ec84537f}</destination>
+			<destination>{7e9e440a-f698-4c38-b5bb-2de4da6673b9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f5ba4d83-c82c-431c-9435-1b01d157e076}" />
@@ -196,19 +196,32 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9f33854f-1a8b-4e17-847f-d6f17a34d860}" />
+	<object class="MixerBusFader" id="{57d92b1b-2884-4bab-a6f9-ec36afa35393}" />
+	<object class="SpatialiserEffect" id="{b83c8fa5-feab-4334-ac14-ea29ec84537f}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>8</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="userStereoSeparation">
+			<value>180</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{7e9e440a-f698-4c38-b5bb-2de4da6673b9}">
 		<property name="level">
 			<value>-11</value>
 		</property>
 		<property name="inputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{1564c5c3-23ce-462f-899b-bccb77d7cf87}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusFader" id="{57d92b1b-2884-4bab-a6f9-ec36afa35393}" />
-	<object class="SpatialiserEffect" id="{b83c8fa5-feab-4334-ac14-ea29ec84537f}" />
 	<object class="AutomationPoint" id="{e56a5fe9-fdd5-4821-aab4-6ee3a6ee3f1b}">
 		<property name="position">
 			<value>21.375</value>

@@ -497,7 +497,14 @@ ReverbBlending = 0  normal 1 medieval 2 alien</value>
 			<destination>{2199d8ef-83a8-4194-b9e9-7bec8a11f9d9}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{03045961-38d6-4156-8277-a7547cf9a119}" />
+	<object class="SpatialiserEffect" id="{03045961-38d6-4156-8277-a7547cf9a119}">
+		<property name="maximumDistance">
+			<value>7.5999999</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{d452988f-0aa3-4b7e-9125-865841637e73}">
 		<property name="position">
 			<value>0</value>
